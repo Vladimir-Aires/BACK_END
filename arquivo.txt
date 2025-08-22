@@ -1,0 +1,12 @@
+1. Estruturas de dados influenciam algoritmos históricos
+
+O quicksort só é eficiente porque o array (vetor) permite acesso direto a qualquer posição em tempo constante.
+
+Já o merge sort pode ser adaptado para listas ligadas, aproveitando que inserir/remover em listas não exige deslocar elementos como em arrays.
+
+Ou seja: o sucesso de um algoritmo muitas vezes depende da estrutura de dados escolhida.
+
+2. Árvores binárias balanceadas nasceram por “acidente”
+
+As árvores AVL (as primeiras árvores balanceadas) foram criadas em 1962 por Adelson-Velsky e Landis, que descobriram que o desempenho de buscas em árvores podia cair drasticamente sem algum tipo de balanceamento.
+Curiosamente, outras árvores como red-black e splay trees surgiram mais tarde para resolver esse mesmo problema, mas cada uma tem suas “personalidades”.
