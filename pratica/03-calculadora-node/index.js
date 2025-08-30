@@ -1,7 +1,7 @@
 
 const calc = require("./calculadora")
 
-console.log("10 + 5: "+ calc.soma(10, 5))
+console.log("10 + 5: "+ calc.soma(-2, 5))
 console.log("6 - 3: " + calc.subtracao(6,3))
 console.log("3 * 3: " + calc.multiplicacao(3,3))
 console.log("10 / 2: " + calc.divisao(10,2))
